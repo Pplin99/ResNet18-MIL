@@ -1,0 +1,33 @@
+# Local datasets and patient-level exports
+/data/
+/runs/
+/outputs/
+*patient_info*
+*patient_manifest*
+*image_manifest*
+*predictions.csv
+*attention.csv
+# Downloaded model weights and archives
+.cache/
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.tar.gz
+*.zip
+# Python and Jupyter local state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+.jupyter/
+.ipython/
+.pytest_cache/
+# Editor / operating system state
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
