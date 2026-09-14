@@ -1,0 +1,12 @@
+# Python 3.11; CPU wheels reproduce the included demonstration.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+numpy==2.4.2
+Pillow==12.1.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.29.5
+jupyterlab==4.4.3
